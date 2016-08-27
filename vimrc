@@ -2,20 +2,39 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set hidden
-set nowrap        " don't wrap lines
-set tabstop=4     " a tab is four spaces
-set backspace=indent,eol,start " allow backspacing over everything in insert mode
-set autoindent    " always set autoindenting on
-set copyindent    " copy the previous indentation on autoindenting
-set number        " always show line numbers
-set shiftwidth=4  " number of spaces to use for autoindenting
-set shiftround    " use multiple of shiftwidth when indenting with '<' and '>'
-set showmatch     " set show matching parenthesis
-set ignorecase    " ignore case when searching
-set smartcase     " ignore case if search pattern is all lowercase, case-sensitive otherwise
-set smarttab      " insert tabs on the start of a line according to shiftwidth, not tabstop
-set hlsearch      " highlight search terms
-set incsearch     " show search matches as you type
-set history=1000         " remember more commands and search history
-set undolevels=1000      " use many muchos levels of undo
-set cursorline    " highlight cursor line
+" don't wrap lines
+set nowrap
+" a tab is four spaces
+set tabstop=4
+" allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+" always set autoindenting on
+set autoindent
+" copy the previous indentation on autoindenting
+set copyindent
+" always show line numbers
+set number
+" number of spaces to use for autoindenting
+set shiftwidth=4
+" use multiple of shiftwidth when indenting with '<' and '>'
+set shiftround 
+" set show matching parenthesis
+set showmatch
+" set smart indent
+set smartindent
+" ignore case if search pattern is all lowercase, case-sensitive otherwise
+set smartcase
+" insert tabs on the start of a line according to shiftwidth, not tabstop
+set smarttab
+" highlight search terms
+set hlsearch
+" show search matches as you type
+set incsearch
+" remember more commands and search history
+set history=1000
+" use many muchos levels of undo
+set undolevels=1000
+" highlight cursor line
+set cursorline
+colorscheme Tomorrow-Night-Eighties
+set laststatus=2	
