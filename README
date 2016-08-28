@@ -1,13 +1,12 @@
 Installation:
 
-    git clone git://github.com/jedyang97/dotvim.git ~/.vim
-    git clone git://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    `git clone git://github.com/jedyang97/dotvim.git ~/.vim`
+    `git clone git://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
 Create symlinks:
 
-    ln -s ~/.vim/vimrc ~/.vimrc
+    `ln -s ~/.vim/vimrc ~/.vimrc`
 
-Open up vim and in normal mode, type:
+Install plugins:
 
-    :source %
-    :PluginInstall
+    `vim +PluginInstall +qall`
