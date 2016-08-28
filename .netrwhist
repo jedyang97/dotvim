@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/jianing/wiki/.git'
-let g:netrw_dirhist_2='/var/www/vhosts/training.jianing.neadwerx.com/api'
-let g:netrw_dirhist_3='/home/jianing/.ssh'
-let g:netrw_dirhist_4='/var/www/vhosts/training.jianing.neadwerx.com/api'
