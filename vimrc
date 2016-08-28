@@ -75,7 +75,9 @@ set cursorline
 colorscheme Tomorrow-Night-Eighties
 set laststatus=2
 
-" turn on nerd tree plugin
+" NERDtree - turn on nerd tree plugin
 autocmd vimenter * NERDTree
 " NERDtree - display dotfiles
 let NERDTreeShowHidden=1
+" NERDtree - cursor on main tab when vim starts
+autocmd VimEnter * wincmd p
