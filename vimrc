@@ -21,6 +21,9 @@ Plugin 'airblade/vim-gitgutter'
 
 Plugin 'scrooloose/nerdtree'
 
+Plugin 'scrooloose/syntastic'
+
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -72,8 +75,15 @@ set history=1000
 set undolevels=1000
 " highlight cursor line
 set cursorline
+" Sets the number of columns for a TAB
+set softtabstop=4
+" Expand TABs to spaces
+set expandtab
+
+
 colorscheme Tomorrow-Night-Eighties
 set laststatus=2
+
 
 " NERDtree - turn on nerd tree plugin
 "autocmd vimenter * NERDTree
@@ -81,3 +91,6 @@ set laststatus=2
 let NERDTreeShowHidden=1
 " NERDtree - cursor on main tab when vim starts
 "autocmd VimEnter * wincmd p
+
+" turn off syntastic style checker
+let g:syntastic_quiet_messages = { "type": "style" }
