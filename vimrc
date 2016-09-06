@@ -1,6 +1,3 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
 call plug#begin('~/.vim/plugged')
 
 " Make sure to use single quotes
@@ -9,17 +6,19 @@ Plug 'bling/vim-airline'
 
 Plug 'valloric/youcompleteme'
 
-Plug 'honza/vim-snippets'
-
 Plug 'airblade/vim-gitgutter'
 
 Plug 'scrooloose/nerdtree'
 
 Plug 'scrooloose/syntastic'
 
+Plug 'junegunn/vim-easy-align'
+
+Plug 'sirver/ultisnips'
+
 
 " All of your Plugins must be added before the following line
-call plug#end()            " required
+call plug#end()
 
 syntax on
 filetype plugin indent on
