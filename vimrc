@@ -4,10 +4,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'bling/vim-airline'
 
-Plug 'valloric/youcompleteme'
-
-Plug 'airblade/vim-gitgutter'
-
 Plug 'scrooloose/nerdtree'
 
 Plug 'scrooloose/syntastic'
@@ -16,6 +12,15 @@ Plug 'junegunn/vim-easy-align'
 
 Plug 'sirver/ultisnips'
 
+Plug 'tpope/vim-endwise'
+
+Plug 'tpope/vim-fugitive'
+
+Plug 'tomtom/tlib_vim'
+
+Plug 'valloric/youcompleteme'
+
+Plug 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call plug#end()
