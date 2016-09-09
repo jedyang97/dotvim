@@ -1,3 +1,4 @@
-bundle/**
-plugged/**
+bundle/
+plugged/
+undo/
 .netrwhist
