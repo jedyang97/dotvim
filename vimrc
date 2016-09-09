@@ -80,4 +80,10 @@ let NERDTreeShowHidden=1
 "autocmd VimEnter * wincmd p
 
 " turn off syntastic style checker
-let g:syntastic_quiet_messages = { "type": "style" }
+"let g:syntastic_quiet_messages = { "type": "style" }
+
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
