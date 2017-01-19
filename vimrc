@@ -22,6 +22,8 @@ Plug 'valloric/youcompleteme'
 
 Plug 'airblade/vim-gitgutter'
 
+Plug 'kien/ctrlp.vim'
+
 " All of your Plugins must be added before the following line
 call plug#end()
 
