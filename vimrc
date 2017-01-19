@@ -70,7 +70,8 @@ set cursorline
 set softtabstop=4
 " Expand TABs to spaces
 set expandtab
-
+" Toggle paste mode by <F12>
+set pastetoggle=<F12>
 
 colorscheme Tomorrow-Night-Eighties
 set laststatus=2
@@ -91,3 +92,12 @@ xmap ga <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
+
+" return to same line when reopening a file
+augroup line_return
+    au! 
+    au BufReadPost *
+        \ if line("'\"") > 0 && line("'\"") <= line("$") |
+        \     execute 'normal! g`"zvzz' |
+        \ endif
+augroup END 
