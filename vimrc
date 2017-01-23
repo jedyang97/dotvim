@@ -72,6 +72,8 @@ set softtabstop=4
 set expandtab
 " Toggle paste mode by <F12>
 set pastetoggle=<F12>
+" Allow scrolling and selecting with mouse
+set mouse=a
 
 colorscheme Tomorrow-Night-Eighties
 set laststatus=2
