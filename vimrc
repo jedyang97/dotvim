@@ -29,9 +29,6 @@ Plug 'chiel92/vim-autoformat'
 " All of your Plugins must be added before the following line
 call plug#end()
 
-syntax on
-filetype plugin indent on
-set hidden
 " don't wrap lines
 set nowrap
 " a tab is four spaces
