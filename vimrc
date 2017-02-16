@@ -18,7 +18,7 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'tomtom/tlib_vim'
 
-Plug 'valloric/youcompleteme'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 Plug 'airblade/vim-gitgutter'
 
