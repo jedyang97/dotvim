@@ -77,6 +77,8 @@ set mouse=a
 colorscheme Tomorrow-Night-Eighties
 set laststatus=2
 
+" when editting a crontab, set backupcopy to yes to make Vim overwrite the original file
+au FileType crontab setlocal bkc=yes
 
 " NERDtree - turn on nerd tree plugin
 "autocmd vimenter * NERDTree
