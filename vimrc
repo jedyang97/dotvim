@@ -10,7 +10,7 @@ Plug 'scrooloose/syntastic'
 
 Plug 'junegunn/vim-easy-align'
 
-Plug 'sirver/ultisnips'
+"Plug 'sirver/ultisnips'
 
 Plug 'tpope/vim-endwise'
 
@@ -18,7 +18,7 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'tomtom/tlib_vim'
 
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+"Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 Plug 'airblade/vim-gitgutter'
 
@@ -31,8 +31,6 @@ call plug#end()
 
 " A buffer becomes hidden when it is abandoned
 set hidden
-" don't wrap lines
-set nowrap
 " a tab is four spaces
 set tabstop=4
 " allow backspacing over everything in insert mode
